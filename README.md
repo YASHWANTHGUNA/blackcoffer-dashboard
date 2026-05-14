@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blackcoffer Analytics Dashboard
 
-## Getting Started
+A responsive full-stack analytics dashboard built as part of the Blackcoffer Screening Assessment.
 
-First, run the development server:
+## Live Deployment
 
-```bash
+https://blackcoffer-dashboard-mocha.vercel.app/
+
+---
+
+## Tech Stack
+
+- Next.js
+- React.js
+- MongoDB Atlas
+- Tailwind CSS
+- Recharts
+- Vercel
+
+---
+
+## Features
+
+- Dynamic filter system
+- Interactive data visualizations
+- MongoDB integration
+- REST API architecture
+- Responsive dashboard UI
+- Production deployment on Vercel
+- Real-time chart updates based on filters
+
+---
+
+## Dashboard Visualizations
+
+- Intensity Score (Bar Chart)
+- Likelihood Stats (Line Chart)
+- Relevance Overview (Pie Chart)
+- Geographic Reach (Area Chart)
+
+---
+
+## API Routes
+
+- `/api/data`
+- `/api/filters`
+- `/api/topics`
+- `/api/regions`
+- `/api/countries`
+- `/api/sectors`
+
+---
+
+## Installation & Setup
+
+Clone the repository:
+
+bash
+git clone <your-private-repo-url>
+
+Install dependencies:
+
+npm install
+
+Create .env.local:
+
+MONGODB_URI=your_mongodb_connection_string
+
+Run development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+http://localhost:3000
+Production Build
+npm run build
+Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project is deployed on Vercel.
 
-## Learn More
+Notes
+Repository has been kept private as instructed in the assignment guidelines.
+Environment variables and MongoDB credentials are secured and not exposed publicly.
 
-To learn more about Next.js, take a look at the following resources:
+Then:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+git add README.md
+git commit -m "Added README documentation"
+git push
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Your Vercel deployment will auto-update.
